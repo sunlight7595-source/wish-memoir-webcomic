@@ -1,0 +1,64 @@
+.ep3-page .caption,
+.ep3-page .bubble,
+.ep3-page .wish-text,
+.ep3-page .message-thread,
+.ep3-page .note {
+  max-width: min(78%, 430px);
+}
+
+.ep3-page .bubble {
+  font-size: clamp(14px, 2vw, 19px);
+}
+
+.ep3-page .caption {
+  font-size: clamp(15px, 2.2vw, 21px);
+}
+
+.ep3-message {
+  left: 8%;
+  top: 24%;
+  width: min(330px, 72%);
+}
+
+.wish-blank {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(210, 230, 240, 0.88);
+  box-shadow: 0 0 28px rgba(255, 255, 255, 0.88);
+  color: rgba(32, 49, 74, 0.36);
+  font-size: clamp(20px, 4vw, 34px);
+  left: 18%;
+  right: 18%;
+  text-align: center;
+  top: 52%;
+}
+
+.ep3-p6 .wish-blank {
+  top: 59%;
+}
+
+.ep3-p13 .wish-blank {
+  top: 49%;
+}
+
+.ep3-p19 .mid-right {
+  top: 44%;
+}
+
+.ep3-p20 .bottom-wide {
+  bottom: 7%;
+}
+
+@media (max-width: 640px) {
+  .ep3-page .caption,
+  .ep3-page .bubble,
+  .ep3-page .wish-text,
+  .ep3-page .message-thread,
+  .ep3-page .note {
+    max-width: 88%;
+  }
+
+  .wish-blank {
+    left: 14%;
+    right: 14%;
+  }
+}
