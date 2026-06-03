@@ -1,0 +1,152 @@
+.reader-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.reader-nav a {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 9px 13px;
+  white-space: nowrap;
+}
+
+.episode-link {
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-weight: 900;
+  margin-top: 8px;
+  padding: 10px 14px;
+}
+
+.ep2-page .caption,
+.ep2-page .bubble,
+.ep2-page .wish-text,
+.ep2-page .message-thread,
+.ep2-page .note {
+  max-width: min(76%, 410px);
+}
+
+.ep2-page .bubble {
+  font-size: clamp(14px, 2vw, 19px);
+}
+
+.ep2-page .caption {
+  font-size: clamp(15px, 2.2vw, 21px);
+}
+
+.ep2-page .wish-text {
+  font-size: clamp(18px, 3vw, 28px);
+}
+
+.top-left {
+  left: 7%;
+  top: 7%;
+}
+
+.top-right {
+  right: 7%;
+  top: 8%;
+}
+
+.mid-left {
+  left: 7%;
+  top: 42%;
+}
+
+.mid-right {
+  right: 7%;
+  top: 41%;
+}
+
+.lower-left {
+  left: 7%;
+  top: 58%;
+}
+
+.bottom-left {
+  bottom: 8%;
+  left: 7%;
+}
+
+.bottom-right {
+  bottom: 8%;
+  right: 7%;
+}
+
+.bottom-wide {
+  bottom: 6%;
+  left: 7%;
+  right: 7%;
+  max-width: none;
+}
+
+.bottom-wide-bubble {
+  bottom: 7%;
+  left: 7%;
+  right: 7%;
+  max-width: none;
+}
+
+.wish-center {
+  left: 9%;
+  right: 9%;
+  text-align: center;
+  top: 62%;
+}
+
+.note-a {
+  left: 10%;
+  top: 32%;
+}
+
+.ep2-message {
+  left: 8%;
+  top: 30%;
+  width: min(430px, 82%);
+}
+
+.ep2-message-small {
+  right: 8%;
+  top: 24%;
+  width: min(330px, 68%);
+}
+
+.ep2-p13 .mid-left,
+.ep2-p15 .bottom-wide-bubble,
+.ep2-p18 .bottom-wide,
+.ep2-p20 .bottom-wide {
+  max-width: none;
+}
+
+.ep2-p18 .bottom-wide {
+  bottom: 18%;
+}
+
+.ep2-p19 .bottom-wide {
+  bottom: 5%;
+}
+
+.ep2-p19 .bottom-left {
+  bottom: 19%;
+}
+
+@media (max-width: 640px) {
+  .reader-nav {
+    flex-wrap: wrap;
+  }
+
+  .ep2-page .caption,
+  .ep2-page .bubble,
+  .ep2-page .wish-text,
+  .ep2-page .message-thread,
+  .ep2-page .note {
+    max-width: 88%;
+  }
+
+  .ep2-p18 .bottom-wide {
+    bottom: 16%;
+  }
+}

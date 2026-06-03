@@ -1,16 +1,18 @@
 # 願望備忘錄
 
-《願望備忘錄》第 1 話 10 頁試讀完成品 V1。
+《願望備忘錄》第 1 話 10 頁試讀完成品 V1，與第 2 話 20 頁完整篇 V1。
 
 ## 線上發布
 這個資料夾已整理成 GitHub Pages 可發布格式：
 
-- `index.html`：作品試讀頁
-- `episode-01-reader.css`：頁面樣式
+- `index.html`：第 1 話試讀頁
+- `episode-02.html`：第 2 話完整篇
+- `episode-01-reader.css`：共用與第 1 話頁面樣式
+- `episode-02-reader.css`：第 2 話頁面樣式
 - `assets/`：漫畫頁圖與預覽圖
 
 ## 本機預覽
-直接用瀏覽器打開 `index.html`。
+直接用瀏覽器打開 `index.html` 或 `episode-02.html`。
 
 ## GitHub Pages 設定
 上傳到 GitHub 後，到 repo 的 `Settings > Pages`，選擇：

@@ -59,6 +59,19 @@ a {
   white-space: nowrap;
 }
 
+.reader-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.reader-nav a {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 9px 13px;
+  white-space: nowrap;
+}
+
 .reader {
   margin: 0 auto;
   max-width: 760px;
@@ -270,6 +283,16 @@ a {
 
 .end-card h2 {
   font-size: clamp(26px, 5vw, 42px);
+}
+
+.episode-link {
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-weight: 900;
+  margin-top: 8px;
+  padding: 10px 14px;
 }
 
 @media (max-width: 640px) {
