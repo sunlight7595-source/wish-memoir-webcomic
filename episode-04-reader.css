@@ -1,0 +1,52 @@
+.ep4-page .caption,
+.ep4-page .bubble,
+.ep4-page .wish-text,
+.ep4-page .message-thread,
+.ep4-page .note {
+  max-width: min(78%, 440px);
+}
+
+.ep4-page .bubble {
+  font-size: clamp(14px, 2vw, 19px);
+}
+
+.ep4-page .caption {
+  font-size: clamp(15px, 2.2vw, 21px);
+}
+
+.ep4-page .wish-text {
+  font-size: clamp(17px, 2.7vw, 25px);
+}
+
+.ep4-p4 .wish-center,
+.ep4-p7 .wish-center,
+.ep4-p13 .wish-center {
+  top: 43%;
+}
+
+.ep4-p15 .bottom-wide-bubble,
+.ep4-p18 .bottom-wide-bubble,
+.ep4-p19 .bottom-wide-bubble {
+  max-width: none;
+}
+
+.ep4-final-wish {
+  left: 8%;
+  right: 8%;
+  text-align: center;
+  top: 48%;
+}
+
+.ep4-p20 .bottom-wide {
+  bottom: 8%;
+}
+
+@media (max-width: 640px) {
+  .ep4-page .caption,
+  .ep4-page .bubble,
+  .ep4-page .wish-text,
+  .ep4-page .message-thread,
+  .ep4-page .note {
+    max-width: 88%;
+  }
+}
